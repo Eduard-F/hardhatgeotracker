@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3",
+    "socket.io": "^4.7.5"
+  },
+  "name": "hardhatgeotracker",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduard Faul",
+  "license": "ISC",
+  "description": "Gets Geo data from multiple clients and plots it to a website",
+  "keywords": [
+    "Geo"
+  ]
+}

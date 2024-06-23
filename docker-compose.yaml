@@ -1,0 +1,12 @@
+# Production runs on older docker version 
+# so create this file to restore some of my sanity
+services:
+  server:
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8000:8000
+      - 8001:8001/udp
+      - 8002:8002/udp
